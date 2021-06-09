@@ -57,7 +57,7 @@ class NewTweet extends Component {
             className="textarea"
             maxLength={280}
           />
-          {/* show how many characters are left */}
+          {/* sshow how many characters are left */}
           {tweetLeft <= 100 && <div className="tweet-length">{tweetLeft}</div>}
 
           {/* button is disabled if it's an empty string */}
